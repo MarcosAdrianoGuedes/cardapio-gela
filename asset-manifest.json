@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cardapio-gela/static/css/main.df22fa01.css",
-    "main.js": "/cardapio-gela/static/js/main.8767f25a.js",
+    "main.css": "/cardapio-gela/static/css/main.3c146425.css",
+    "main.js": "/cardapio-gela/static/js/main.94a00926.js",
     "index.html": "/cardapio-gela/index.html",
-    "main.df22fa01.css.map": "/cardapio-gela/static/css/main.df22fa01.css.map",
-    "main.8767f25a.js.map": "/cardapio-gela/static/js/main.8767f25a.js.map"
+    "main.3c146425.css.map": "/cardapio-gela/static/css/main.3c146425.css.map",
+    "main.94a00926.js.map": "/cardapio-gela/static/js/main.94a00926.js.map"
   },
   "entrypoints": [
-    "static/css/main.df22fa01.css",
-    "static/js/main.8767f25a.js"
+    "static/css/main.3c146425.css",
+    "static/js/main.94a00926.js"
   ]
 }
