@@ -70,6 +70,10 @@ function App() {
             <div className="subsection">
               <h3 className="subsection-title">LATAS</h3>
               <ul>
+              <li>
+                  <span className="item-name">Imperio</span>
+                  <span className="item-price">R$3,00</span>
+                </li>
                 <li>
                   <span className="item-name">Antactica</span>
                   <span className="item-price">R$4,00</span>
@@ -91,8 +95,8 @@ function App() {
                   <span className="item-price">R$4,00</span>
                 </li>
                 <li>
-                  <span className="item-name">Imperio</span>
-                  <span className="item-price">R$3,00</span>
+                  <span className="item-name">Original</span>
+                  <span className="item-price">R$4,00</span>
                 </li>
                 <li>
                   <span className="item-name">Bohemia</span>
@@ -107,10 +111,6 @@ function App() {
                   <span className="item-price">R$5,00</span>
                 </li>
                 <li>
-                  <span className="item-name">Original</span>
-                  <span className="item-price">R$4,00</span>
-                </li>
-                <li>
                   <span className="item-name">Spaten</span>
                   <span className="item-price">R$5,00</span>
                 </li>
@@ -119,33 +119,17 @@ function App() {
             <div className="subsection">
               <h3 className="subsection-title">LONGNECK</h3>
               <ul>
-                <li>
-                  <span className="item-name">Heineken</span>
-                  <span className="item-price">R$8,00</span>
-                </li>
-                <li>
-                  <span className="item-name">Heineken 0 Álcool</span>
-                  <span className="item-price">R$9,00</span>
-                </li>
-                <li>
-                  <span className="item-name">Brahma 0 Álcool</span>
-                  <span className="item-price">R$6,00</span>
-                </li>
-                <li>
+              <li>
                   <span className="item-name">Bohemia</span>
                   <span className="item-price">R$5,00</span>
                 </li>
                 <li>
-                  <span className="item-name">Spaten</span>
-                  <span className="item-price">R$8,00</span>
+                  <span className="item-name">Corona</span>
+                  <span className="item-price">R$6,00</span>
                 </li>
                 <li>
-                  <span className="item-name">Stella Artois</span>
-                  <span className="item-price">R$8,00</span>
-                </li>
-                <li>
-                  <span className="item-name">Sol</span>
-                  <span className="item-price">R$7,00</span>
+                  <span className="item-name">Brahma 0 Álcool</span>
+                  <span className="item-price">R$6,00</span>
                 </li>
                 <li>
                   <span className="item-name">Malzebier</span>
@@ -156,12 +140,28 @@ function App() {
                   <span className="item-price">R$7,00</span>
                 </li>
                 <li>
+                  <span className="item-name">Sol</span>
+                  <span className="item-price">R$7,00</span>
+                </li>
+                <li>
+                  <span className="item-name">Heineken</span>
+                  <span className="item-price">R$8,00</span>
+                </li>
+                <li>
+                  <span className="item-name">Spaten</span>
+                  <span className="item-price">R$8,00</span>
+                </li>
+                <li>
+                  <span className="item-name">Stella Artois</span>
+                  <span className="item-price">R$8,00</span>
+                </li>
+                <li>
                   <span className="item-name">Budweiser</span>
                   <span className="item-price">R$8,00</span>
                 </li>
                 <li>
-                  <span className="item-name">Corona</span>
-                  <span className="item-price">R$6,00</span>
+                  <span className="item-name">Heineken 0 Álcool</span>
+                  <span className="item-price">R$9,00</span>
                 </li>
               </ul>
             </div>
@@ -205,12 +205,12 @@ function App() {
                   <span className="item-price">R$10,00</span>
                 </li>
                 <li>
-                  <span className="item-name">Heineken</span>
-                  <span className="item-price">R$14,00</span>
-                </li>
-                <li>
                   <span className="item-name">Spaten</span>
                   <span className="item-price">R$12,00</span>
+                </li>
+                <li>
+                  <span className="item-name">Heineken</span>
+                  <span className="item-price">R$14,00</span>
                 </li>
               </ul>
             </div>
@@ -221,6 +221,10 @@ function App() {
           <ul>
             <li>
               <span className="item-name">Anel de Cebola</span>
+              <span className="item-price">R$25,00</span>
+            </li>
+            <li>
+              <span className="item-name">Batata Frita Comum</span>
               <span className="item-price">R$25,00</span>
             </li>
             <li>
@@ -236,16 +240,12 @@ function App() {
               <span className="item-price">R$30,00</span>
             </li>
             <li>
-              <span className="item-name">Isca de Peixe</span>
-              <span className="item-price">R$45,00</span>
-            </li>
-            <li>
               <span className="item-name">Batata Frita com Calabresa(Cheddar)</span>
               <span className="item-price">R$30,00</span>
             </li>
             <li>
-              <span className="item-name">Batata Frita Comum</span>
-              <span className="item-price">R$25,00</span>
+              <span className="item-name">Isca de Peixe</span>
+              <span className="item-price">R$45,00</span>
             </li>
             <li>
               <span className="item-name">Carne de Sol</span>
@@ -256,21 +256,17 @@ function App() {
         <div className="container" id="doses">
           <h2 className="section-title">DOSES</h2>
           <ul>
-            <li>
-              <span className="item-name">Chivas</span>
-              <span className="item-price">R$20,00</span>
+          <li>
+              <span className="item-name">Cachaça Temperada</span>
+              <span className="item-price">R$4,00</span>
             </li>
             <li>
-              <span className="item-name">Tequila</span>
-              <span className="item-price">R$13,00</span>
+              <span className="item-name">Paratudo</span>
+              <span className="item-price">R$4,00</span>
             </li>
             <li>
-              <span className="item-name">Old Par</span>
-              <span className="item-price">R$25,00</span>
-            </li>
-            <li>
-              <span className="item-name">Amarula</span>
-              <span className="item-price">R$10,00</span>
+              <span className="item-name">Demais Doses</span>
+              <span className="item-price">R$4,00</span>
             </li>
             <li>
               <span className="item-name">Vodka</span>
@@ -285,25 +281,41 @@ function App() {
               <span className="item-price">R$5,00</span>
             </li>
             <li>
-              <span className="item-name">Cachaça Temperada</span>
-              <span className="item-price">R$4,00</span>
+              <span className="item-name">Amarula</span>
+              <span className="item-price">R$10,00</span>
             </li>
             <li>
-              <span className="item-name">Paratudo</span>
-              <span className="item-price">R$4,00</span>
+              <span className="item-name">Tequila</span>
+              <span className="item-price">R$13,00</span>
             </li>
             <li>
-              <span className="item-name">Demais Doses</span>
-              <span className="item-price">R$4,00</span>
+              <span className="item-name">Chivas</span>
+              <span className="item-price">R$20,00</span>
+            </li>
+            <li>
+              <span className="item-name">Old Par</span>
+              <span className="item-price">R$25,00</span>
             </li>
           </ul>
         </div>
         <div className="container" id="drinks">
           <h2 className="section-title">DRINKS</h2>
           <ul>
+          <li>
+              <span className="item-name">Preparo Cozumel Copo</span>
+              <span className="item-price">R$3,00</span>
+            </li>
+            <li>
+              <span className="item-name">Preparo Cozumel Taça</span>
+              <span className="item-price">R$4,00</span>
+            </li>
             <li>
               <span className="item-name">Caipirinha (51)</span>
               <span className="item-price">R$10,00</span>
+            </li>
+            <li>
+              <span className="item-name">Cuba Libre</span>
+              <span className="item-price">R$12,00</span>
             </li>
             <li>
               <span className="item-name">Caipivodka (Sminoff)</span>
@@ -314,12 +326,12 @@ function App() {
               <span className="item-price">R$15,00</span>
             </li>
             <li>
-              <span className="item-name">Preparo Cozumel Copo</span>
-              <span className="item-price">R$3,00</span>
+              <span className="item-name">Gin Red Bull Sabores</span>
+              <span className="item-price">R$20,00</span>
             </li>
             <li>
-              <span className="item-name">Preparo Cozumel Taça</span>
-              <span className="item-price">R$4,00</span>
+              <span className="item-name">Drink Tentação</span>
+              <span className="item-price">R$20,00</span>
             </li>
             <li>
               <span className="item-name">Tônica Tanqueray 600ML</span>
@@ -328,18 +340,6 @@ function App() {
             <li>
               <span className="item-name">Tõnica Gin Rock 600ML</span>
               <span className="item-price">R$25,00</span>
-            </li>
-            <li>
-              <span className="item-name">Gin Red Bull Sabores</span>
-              <span className="item-price">R$20,00</span>
-            </li>
-            <li>
-              <span className="item-name">Cuba Libre</span>
-              <span className="item-price">R$12,00</span>
-            </li>
-            <li>
-              <span className="item-name">Drink Tentação</span>
-              <span className="item-price">R$20,00</span>
             </li>
           </ul>
         </div>
@@ -351,12 +351,20 @@ function App() {
               <span className="item-price">R$4,00</span>
             </li>
             <li>
+              <span className="item-name">Coca KS</span>
+              <span className="item-price">R$4,50</span>
+            </li>
+            <li>
               <span className="item-name">Refrigerante Lata 310ML</span>
               <span className="item-price">R$5,00</span>
             </li>
             <li>
-              <span className="item-name">Coca KS</span>
-              <span className="item-price">R$4,50</span>
+              <span className="item-name">51 ICE</span>
+              <span className="item-price">R$8,00</span>
+            </li>
+            <li>
+              <span className="item-name">Schweppers Drink</span>
+              <span className="item-price">R$8,00</span>
             </li>
             <li>
               <span className="item-name">Monster Sabores</span>
@@ -365,10 +373,6 @@ function App() {
             <li>
               <span className="item-name">Suco Del Valle Sabores</span>
               <span className="item-price">R$10,00</span>
-            </li>
-            <li>
-              <span className="item-name">51 ICE</span>
-              <span className="item-price">R$8,00</span>
             </li>
             <li>
               <span className="item-name">Smirnoff ICE</span>
@@ -381,10 +385,6 @@ function App() {
             <li>
               <span className="item-name">Skol Beats</span>
               <span className="item-price">R$10,00</span>
-            </li>
-            <li>
-              <span className="item-name">Schweppers Drink</span>
-              <span className="item-price">R$8,00</span>
             </li>
             <li>
               <span className="item-name">Red Bull</span>
@@ -403,12 +403,12 @@ function App() {
                 <span className="item-price">R$2,00</span>
               </li>
               <li>
-                <span className="item-name">Água com Gás</span>
-                <span className="item-price">R$3,50</span>
-              </li>
-              <li>
                 <span className="item-name">Água de Coco</span>
                 <span className="item-price">R$3,00</span>
+              </li>
+              <li>
+                <span className="item-name">Água com Gás</span>
+                <span className="item-price">R$3,50</span>
               </li>
               <li>
                 <span className="item-name">Água de Coco Congelada</span>
