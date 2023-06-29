@@ -28,8 +28,10 @@
   justify-content: center;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-  overflow: hidden; /* Adiciona overflow hidden para a faixa não se estender além da barra */
+  overflow: hidden;
+  padding: 20px; /* Adiciona padding interno para evitar o corte do texto */
 }
+
 
 .cardapio-text {
   font-size: 27px; 
@@ -117,7 +119,7 @@
 
 .container:hover,
 .container.zoom-in {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: transform 0.3s;
 }
 
