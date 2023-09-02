@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cardapio-gela/static/css/main.76ea2d5e.css",
+    "main.js": "/cardapio-gela/static/js/main.630a2f3f.js",
+    "index.html": "/cardapio-gela/index.html",
+    "main.76ea2d5e.css.map": "/cardapio-gela/static/css/main.76ea2d5e.css.map",
+    "main.630a2f3f.js.map": "/cardapio-gela/static/js/main.630a2f3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76ea2d5e.css",
+    "static/js/main.630a2f3f.js"
+  ]
+}

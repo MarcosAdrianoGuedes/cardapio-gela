@@ -10,7 +10,7 @@
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url('https://images6.alphacoders.com/428/thumb-1920-428228.jpg');
+  background-image: url('https://wallpapercave.com/wp/wp3067007.jpg');
   background-size: cover;
   background-position: center;
   filter: blur(2px); 
@@ -18,7 +18,7 @@
 
 .bar-background {
   position: relative;
-  background-image: url('https://wallpapertag.com/wallpaper/full/0/f/f/129855-free-bar-background-2500x1107-full-hd.jpg');
+  background-image: url('https://th.bing.com/th/id/R.acd3cbe38d470905c3127e249840713e?rik=1fChh2GOJpsc7A&pid=ImgRaw&r=0');
   background-size: cover;
   background-position: center;
   height: 30vh; 
@@ -56,7 +56,8 @@
 
 .logo {
   width: 130px; 
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
+  border-radius: 50%;
 }
 
 .buttons-container {
@@ -66,15 +67,6 @@
   justify-content: center;
 }
 
-.bar-separator {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 8px;
-  background-image: linear-gradient(to right, rgba(75, 37, 8, 0.5), rgba(139, 69, 19, 0.5), rgba(210, 105, 30, 0.5), rgba(139, 69, 19, 0.5), rgba(75, 37, 8, 0.5));
-  filter: blur(2px); /* Adiciona o efeito de desfoque */
-}
 
 .section-button {
   margin: 12px;
